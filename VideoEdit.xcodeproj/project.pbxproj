@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AE1247FD1E8CE52E0060E990 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AE1247FC1E8CE52E0060E990 /* main.m */; };
+		AE1248001E8CE52E0060E990 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AE1247FF1E8CE52E0060E990 /* AppDelegate.m */; };
+		AE1248031E8CE52E0060E990 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE1248021E8CE52E0060E990 /* ViewController.m */; };
+		AE1248061E8CE52E0060E990 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE1248041E8CE52E0060E990 /* Main.storyboard */; };
+		AE1248081E8CE52E0060E990 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE1248071E8CE52E0060E990 /* Assets.xcassets */; };
+		AE12480B1E8CE52E0060E990 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE1248091E8CE52E0060E990 /* LaunchScreen.storyboard */; };
+		AE1248161E8CE52E0060E990 /* VideoEditTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AE1248151E8CE52E0060E990 /* VideoEditTests.m */; };
+		AE1248211E8CE52E0060E990 /* VideoEditUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AE1248201E8CE52E0060E990 /* VideoEditUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AE1248121E8CE52E0060E990 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE1247F01E8CE52E0060E990 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE1247F71E8CE52E0060E990;
+			remoteInfo = VideoEdit;
+		};
+		AE12481D1E8CE52E0060E990 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE1247F01E8CE52E0060E990 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE1247F71E8CE52E0060E990;
+			remoteInfo = VideoEdit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AE1247F81E8CE52E0060E990 /* VideoEdit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VideoEdit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE1247FC1E8CE52E0060E990 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AE1247FE1E8CE52E0060E990 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AE1247FF1E8CE52E0060E990 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AE1248011E8CE52E0060E990 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AE1248021E8CE52E0060E990 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AE1248051E8CE52E0060E990 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AE1248071E8CE52E0060E990 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AE12480A1E8CE52E0060E990 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AE12480C1E8CE52E0060E990 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE1248111E8CE52E0060E990 /* VideoEditTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VideoEditTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE1248151E8CE52E0060E990 /* VideoEditTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoEditTests.m; sourceTree = "<group>"; };
+		AE1248171E8CE52E0060E990 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE12481C1E8CE52E0060E990 /* VideoEditUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VideoEditUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE1248201E8CE52E0060E990 /* VideoEditUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoEditUITests.m; sourceTree = "<group>"; };
+		AE1248221E8CE52E0060E990 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE1247F51E8CE52E0060E990 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE12480E1E8CE52E0060E990 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE1248191E8CE52E0060E990 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AE1247EF1E8CE52E0060E990 = {
+			isa = PBXGroup;
+			children = (
+				AE1247FA1E8CE52E0060E990 /* VideoEdit */,
+				AE1248141E8CE52E0060E990 /* VideoEditTests */,
+				AE12481F1E8CE52E0060E990 /* VideoEditUITests */,
+				AE1247F91E8CE52E0060E990 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AE1247F91E8CE52E0060E990 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE1247F81E8CE52E0060E990 /* VideoEdit.app */,
+				AE1248111E8CE52E0060E990 /* VideoEditTests.xctest */,
+				AE12481C1E8CE52E0060E990 /* VideoEditUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE1247FA1E8CE52E0060E990 /* VideoEdit */ = {
+			isa = PBXGroup;
+			children = (
+				AE1247FE1E8CE52E0060E990 /* AppDelegate.h */,
+				AE1247FF1E8CE52E0060E990 /* AppDelegate.m */,
+				AE1248011E8CE52E0060E990 /* ViewController.h */,
+				AE1248021E8CE52E0060E990 /* ViewController.m */,
+				AE1248041E8CE52E0060E990 /* Main.storyboard */,
+				AE1248071E8CE52E0060E990 /* Assets.xcassets */,
+				AE1248091E8CE52E0060E990 /* LaunchScreen.storyboard */,
+				AE12480C1E8CE52E0060E990 /* Info.plist */,
+				AE1247FB1E8CE52E0060E990 /* Supporting Files */,
+			);
+			path = VideoEdit;
+			sourceTree = "<group>";
+		};
+		AE1247FB1E8CE52E0060E990 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AE1247FC1E8CE52E0060E990 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AE1248141E8CE52E0060E990 /* VideoEditTests */ = {
+			isa = PBXGroup;
+			children = (
+				AE1248151E8CE52E0060E990 /* VideoEditTests.m */,
+				AE1248171E8CE52E0060E990 /* Info.plist */,
+			);
+			path = VideoEditTests;
+			sourceTree = "<group>";
+		};
+		AE12481F1E8CE52E0060E990 /* VideoEditUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AE1248201E8CE52E0060E990 /* VideoEditUITests.m */,
+				AE1248221E8CE52E0060E990 /* Info.plist */,
+			);
+			path = VideoEditUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AE1247F71E8CE52E0060E990 /* VideoEdit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE1248251E8CE52E0060E990 /* Build configuration list for PBXNativeTarget "VideoEdit" */;
+			buildPhases = (
+				AE1247F41E8CE52E0060E990 /* Sources */,
+				AE1247F51E8CE52E0060E990 /* Frameworks */,
+				AE1247F61E8CE52E0060E990 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VideoEdit;
+			productName = VideoEdit;
+			productReference = AE1247F81E8CE52E0060E990 /* VideoEdit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AE1248101E8CE52E0060E990 /* VideoEditTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE1248281E8CE52E0060E990 /* Build configuration list for PBXNativeTarget "VideoEditTests" */;
+			buildPhases = (
+				AE12480D1E8CE52E0060E990 /* Sources */,
+				AE12480E1E8CE52E0060E990 /* Frameworks */,
+				AE12480F1E8CE52E0060E990 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE1248131E8CE52E0060E990 /* PBXTargetDependency */,
+			);
+			name = VideoEditTests;
+			productName = VideoEditTests;
+			productReference = AE1248111E8CE52E0060E990 /* VideoEditTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AE12481B1E8CE52E0060E990 /* VideoEditUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE12482B1E8CE52E0060E990 /* Build configuration list for PBXNativeTarget "VideoEditUITests" */;
+			buildPhases = (
+				AE1248181E8CE52E0060E990 /* Sources */,
+				AE1248191E8CE52E0060E990 /* Frameworks */,
+				AE12481A1E8CE52E0060E990 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE12481E1E8CE52E0060E990 /* PBXTargetDependency */,
+			);
+			name = VideoEditUITests;
+			productName = VideoEditUITests;
+			productReference = AE12481C1E8CE52E0060E990 /* VideoEditUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AE1247F01E8CE52E0060E990 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "CHT-Technology";
+				TargetAttributes = {
+					AE1247F71E8CE52E0060E990 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 8XFNGMWHG2;
+						ProvisioningStyle = Automatic;
+					};
+					AE1248101E8CE52E0060E990 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 8XFNGMWHG2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AE1247F71E8CE52E0060E990;
+					};
+					AE12481B1E8CE52E0060E990 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 8XFNGMWHG2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AE1247F71E8CE52E0060E990;
+					};
+				};
+			};
+			buildConfigurationList = AE1247F31E8CE52E0060E990 /* Build configuration list for PBXProject "VideoEdit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AE1247EF1E8CE52E0060E990;
+			productRefGroup = AE1247F91E8CE52E0060E990 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE1247F71E8CE52E0060E990 /* VideoEdit */,
+				AE1248101E8CE52E0060E990 /* VideoEditTests */,
+				AE12481B1E8CE52E0060E990 /* VideoEditUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AE1247F61E8CE52E0060E990 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE12480B1E8CE52E0060E990 /* LaunchScreen.storyboard in Resources */,
+				AE1248081E8CE52E0060E990 /* Assets.xcassets in Resources */,
+				AE1248061E8CE52E0060E990 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE12480F1E8CE52E0060E990 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE12481A1E8CE52E0060E990 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE1247F41E8CE52E0060E990 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE1248031E8CE52E0060E990 /* ViewController.m in Sources */,
+				AE1248001E8CE52E0060E990 /* AppDelegate.m in Sources */,
+				AE1247FD1E8CE52E0060E990 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE12480D1E8CE52E0060E990 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE1248161E8CE52E0060E990 /* VideoEditTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE1248181E8CE52E0060E990 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE1248211E8CE52E0060E990 /* VideoEditUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AE1248131E8CE52E0060E990 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE1247F71E8CE52E0060E990 /* VideoEdit */;
+			targetProxy = AE1248121E8CE52E0060E990 /* PBXContainerItemProxy */;
+		};
+		AE12481E1E8CE52E0060E990 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE1247F71E8CE52E0060E990 /* VideoEdit */;
+			targetProxy = AE12481D1E8CE52E0060E990 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AE1248041E8CE52E0060E990 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE1248051E8CE52E0060E990 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AE1248091E8CE52E0060E990 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE12480A1E8CE52E0060E990 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AE1248231E8CE52E0060E990 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AE1248241E8CE52E0060E990 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AE1248261E8CE52E0060E990 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8XFNGMWHG2;
+				INFOPLIST_FILE = VideoEdit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cht..VideoEdit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AE1248271E8CE52E0060E990 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8XFNGMWHG2;
+				INFOPLIST_FILE = VideoEdit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cht..VideoEdit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AE1248291E8CE52E0060E990 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 8XFNGMWHG2;
+				INFOPLIST_FILE = VideoEditTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cht..VideoEditTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VideoEdit.app/VideoEdit";
+			};
+			name = Debug;
+		};
+		AE12482A1E8CE52E0060E990 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 8XFNGMWHG2;
+				INFOPLIST_FILE = VideoEditTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cht..VideoEditTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VideoEdit.app/VideoEdit";
+			};
+			name = Release;
+		};
+		AE12482C1E8CE52E0060E990 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 8XFNGMWHG2;
+				INFOPLIST_FILE = VideoEditUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cht..VideoEditUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = VideoEdit;
+			};
+			name = Debug;
+		};
+		AE12482D1E8CE52E0060E990 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 8XFNGMWHG2;
+				INFOPLIST_FILE = VideoEditUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cht..VideoEditUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = VideoEdit;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AE1247F31E8CE52E0060E990 /* Build configuration list for PBXProject "VideoEdit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE1248231E8CE52E0060E990 /* Debug */,
+				AE1248241E8CE52E0060E990 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE1248251E8CE52E0060E990 /* Build configuration list for PBXNativeTarget "VideoEdit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE1248261E8CE52E0060E990 /* Debug */,
+				AE1248271E8CE52E0060E990 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AE1248281E8CE52E0060E990 /* Build configuration list for PBXNativeTarget "VideoEditTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE1248291E8CE52E0060E990 /* Debug */,
+				AE12482A1E8CE52E0060E990 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AE12482B1E8CE52E0060E990 /* Build configuration list for PBXNativeTarget "VideoEditUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE12482C1E8CE52E0060E990 /* Debug */,
+				AE12482D1E8CE52E0060E990 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AE1247F01E8CE52E0060E990 /* Project object */;
+}
