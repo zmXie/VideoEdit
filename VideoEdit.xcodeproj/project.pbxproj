@@ -15,6 +15,7 @@
 		AE12480B1E8CE52E0060E990 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE1248091E8CE52E0060E990 /* LaunchScreen.storyboard */; };
 		AE1248161E8CE52E0060E990 /* VideoEditTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AE1248151E8CE52E0060E990 /* VideoEditTests.m */; };
 		AE1248211E8CE52E0060E990 /* VideoEditUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AE1248201E8CE52E0060E990 /* VideoEditUITests.m */; };
+		AE3B864A1E8E2D7E00EA4DEA /* XZMVideoCaptureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE3B86491E8E2D7E00EA4DEA /* XZMVideoCaptureViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		AE12481C1E8CE52E0060E990 /* VideoEditUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VideoEditUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE1248201E8CE52E0060E990 /* VideoEditUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoEditUITests.m; sourceTree = "<group>"; };
 		AE1248221E8CE52E0060E990 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE3B86481E8E2D7E00EA4DEA /* XZMVideoCaptureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZMVideoCaptureViewController.h; sourceTree = "<group>"; };
+		AE3B86491E8E2D7E00EA4DEA /* XZMVideoCaptureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZMVideoCaptureViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				AE1247FF1E8CE52E0060E990 /* AppDelegate.m */,
 				AE1248011E8CE52E0060E990 /* ViewController.h */,
 				AE1248021E8CE52E0060E990 /* ViewController.m */,
+				AE3B86481E8E2D7E00EA4DEA /* XZMVideoCaptureViewController.h */,
+				AE3B86491E8E2D7E00EA4DEA /* XZMVideoCaptureViewController.m */,
 				AE1248041E8CE52E0060E990 /* Main.storyboard */,
 				AE1248071E8CE52E0060E990 /* Assets.xcassets */,
 				AE1248091E8CE52E0060E990 /* LaunchScreen.storyboard */,
@@ -279,6 +284,7 @@
 				AE1248031E8CE52E0060E990 /* ViewController.m in Sources */,
 				AE1248001E8CE52E0060E990 /* AppDelegate.m in Sources */,
 				AE1247FD1E8CE52E0060E990 /* main.m in Sources */,
+				AE3B864A1E8E2D7E00EA4DEA /* XZMVideoCaptureViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -429,6 +435,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 8XFNGMWHG2;
 				INFOPLIST_FILE = VideoEdit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cht..VideoEdit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -441,6 +448,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 8XFNGMWHG2;
 				INFOPLIST_FILE = VideoEdit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cht..VideoEdit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -516,6 +524,7 @@
 				AE1248271E8CE52E0060E990 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AE1248281E8CE52E0060E990 /* Build configuration list for PBXNativeTarget "VideoEditTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +533,7 @@
 				AE12482A1E8CE52E0060E990 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AE12482B1E8CE52E0060E990 /* Build configuration list for PBXNativeTarget "VideoEditUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +542,7 @@
 				AE12482D1E8CE52E0060E990 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
